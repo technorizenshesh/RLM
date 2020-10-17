@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/_10sdp">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="@dimen/_80sdp"
+        android:layout_height="@dimen/_80sdp"
+        android:layout_margin="@dimen/_10sdp"
+        android:src="@drawable/defult_user"/>
+    <TextView style="@style/tv_header"
+        android:text="user Name"
+        android:textColor="@color/white"/>
+    <TextView style="@style/tv_header_medium"
+        android:text="Main"
+        android:textColor="@color/white"/>
+    <TextView style="@style/tv_header_medium"
+        android:text="What about us"
+        android:textColor="@color/white"/>
+    <TextView style="@style/tv_header_medium"
+        android:text="Appointment booking"
+        android:textColor="@color/white"/>
+    <TextView style="@style/tv_header_medium"
+        android:text="Our Service"
+        android:textColor="@color/white"/>
+    <TextView style="@style/tv_header_medium"
+        android:text="Statistics"
+        android:textColor="@color/white"/>
+    <TextView style="@style/tv_header_medium"
+        android:text="Call Us"
+        android:textColor="@color/white"/>
+</LinearLayout>

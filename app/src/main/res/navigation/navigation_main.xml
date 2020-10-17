@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_main"
+    app:startDestination="@id/nav_home">
+<fragment android:id="@+id/nav_home"
+    android:name="com.rlm.Fragments.FragmentHome"
+    tools:layout="@layout/fragment_home">
+    <action android:id="@+id/action_about_us"
+        app:destination="@+id/nav_about_us"/>
+    <action android:id="@+id/action_service"
+        app:destination="@+id/nav_service"/>
+    <action android:id="@+id/action_doctor"
+        app:destination="@+id/nav_doctor"/>
+    <action android:id="@+id/action_appointment"
+        app:destination="@+id/nav_appointment"/>
+    <action android:id="@+id/action_contact_us"
+        app:destination="@id/nav_contact_us"/>
+    <action android:id="@+id/action_offer"
+        app:destination="@+id/nav_offer"/>
+</fragment>
+    <fragment android:id="@+id/nav_about_us"
+        android:name="com.rlm.Fragments.FragmentAboutUs"
+        tools:layout="@layout/fragment_about_us">
+    </fragment>
+    <fragment android:id="@+id/nav_service"
+        android:name="com.rlm.Fragments.FragmentOurService"
+        tools:layout="@layout/fragment_our_service">
+        <action android:id="@+id/action_details"
+            app:destination="@+id/nav_service_details"/>
+        <action android:id="@+id/action_appointment"
+            app:destination="@+id/nav_appointment"/>
+    </fragment>
+    <fragment android:id="@+id/nav_doctor"
+        android:name="com.rlm.Fragments.FragmentOurDoctors"
+        tools:layout="@layout/fragment_our_doctors">
+        <action android:id="@+id/action_details"
+            app:destination="@+id/nav_doctor_details"/>
+        <action android:id="@+id/action_appointment"
+            app:destination="@+id/nav_appointment"/>
+    </fragment>
+    <fragment android:id="@+id/nav_appointment"
+        android:name="com.rlm.Fragments.FragmentAppointmentPartOne"
+        tools:layout="@layout/fragment_appointment_part_one">
+        <action android:id="@+id/action_appointment_next"
+            app:destination="@+id/nav_appointment_part_2"/>
+        <action android:id="@+id/action_success"
+            app:destination="@+id/nav_success"/>
+    </fragment>
+    <fragment android:id="@+id/nav_service_details"
+        android:name="com.rlm.Fragments.FragmentServiceDetails"
+        tools:layout="@layout/fragment_service_details">
+        <action android:id="@+id/action_success"
+            app:destination="@+id/nav_success"/>
+        <action android:id="@+id/action_appointment"
+            app:destination="@+id/nav_appointment"/>
+    </fragment>
+    <fragment android:id="@+id/nav_doctor_details"
+        android:name="com.rlm.Fragments.FragmentDoctorDetails"
+        tools:layout="@layout/fragment_doctor_details">
+        <action android:id="@+id/action_success"
+            app:destination="@+id/nav_success"/>
+        <action android:id="@+id/action_appointment"
+            app:destination="@+id/nav_appointment"/>
+    </fragment>
+    <fragment android:id="@+id/nav_appointment_part_2"
+        android:name="com.rlm.Fragments.FragmentAppointmentPartTwo"
+        tools:layout="@layout/fragment_appointment_part_two">
+        <action android:id="@+id/action_success"
+            app:destination="@+id/nav_success"/>
+    </fragment>
+    <fragment android:id="@+id/nav_success"
+        android:name="com.rlm.Fragments.FragmentSuccess"
+        tools:layout="@layout/fragment_success">
+    </fragment>
+    <fragment android:id="@+id/nav_statistics"
+        android:name="com.rlm.Fragments.FragmentStatistics"
+        tools:layout="@layout/fragment_statistic">
+    </fragment>
+    <fragment android:id="@+id/nav_offer"
+        android:name="com.rlm.Fragments.FragmentOurOffers"
+        tools:layout="@layout/fragment_our_offer">
+        <action android:id="@+id/action_details"
+            app:destination="@+id/nav_offer_details"/>
+    </fragment>
+    <fragment android:id="@+id/nav_offer_details"
+        android:name="com.rlm.Fragments.FragmentOfferDetails"
+        tools:layout="@layout/fragment_offer_details">
+    </fragment>
+    <fragment android:id="@+id/nav_notification"
+        android:name="com.rlm.Fragments.FragmentNotification"
+        tools:layout="@layout/fragment_notification">
+    </fragment>
+    <navigation
+        android:id="@+id/nav_contact_us"
+        app:startDestination="@id/nav_contact_us" >
+        <fragment
+            android:id="@+id/nav_contact_us"
+            android:name="com.rlm.Fragments.FragmentContactUs"
+            tools:layout="@layout/fragment_contact_us"></fragment>
+    </navigation>
+</navigation>

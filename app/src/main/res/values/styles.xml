@@ -1,0 +1,268 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorAccent</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="drawerArrowStyle">@style/DrawerIcon</item>
+        <item name="android:windowBackground">@drawable/bg</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
+    <style name="AppTheme2" parent="AppTheme">
+        <item name="android:windowBackground">@color/colorPrimary</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
+
+    <style name="DrawerIcon" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="color">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="ActionBar" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#801519</item>
+        <item name="colorPrimaryDark">#801519</item>
+    </style>
+
+    <style name="AppTheme.Fullscreen" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowBackground">@drawable/bg</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
+
+    <style name="et_type1">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="fontFamily">@font/almarai_regular</item>
+    </style>
+
+    <style name="tv_menu">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/_14sdp</item>
+        <item name="fontFamily">@font/almarai_regular</item>
+    </style>
+    <style name="rb">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/_14sdp</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+
+    <style name="tv_title">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/v_16</item>
+        <item name="android:layout_margin">@dimen/_3sdp</item>
+        <item name="fontFamily">@font/almarai_regular</item>
+    </style>
+    <style name="tv_description">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/v_14</item>
+        <item name="android:layout_margin">@dimen/_10sdp</item>
+        <item name="fontFamily">@font/almarai_regular</item>
+    </style>
+    <style name="tv_home">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/v_15</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">@dimen/_5sdp</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_margin">3dp</item>
+        <item name="fontFamily">@font/almarai_regular</item>
+    </style>
+
+    <style name="tv_price">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/gray_6</item>
+        <item name="android:textSize">@dimen/v_12</item>
+        <item name="fontFamily">@font/almarai_regular</item>
+    </style>
+
+    <style name="tv_header_2">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#000</item>
+        <item name="android:textSize">@dimen/v_18</item>
+        <item name="android:padding">@dimen/v_10</item>
+        <item name="fontFamily">@font/almarai_regular</item>
+    </style>
+
+    <style name="tv_header">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/_25sdp</item>
+        <item name="android:gravity">left</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:shadowRadius">5</item>
+        <item name="android:shadowDx">2</item>
+        <item name="android:shadowDy">2</item>
+        <item name="android:shadowColor">@color/gray_6</item>
+        <item name="android:layout_margin">@dimen/_10sdp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="fontFamily">@font/almarai_regular</item>
+    </style>
+    <style name="tv_header_medium">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/_18sdp</item>
+        <item name="android:gravity">start</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:shadowRadius">5</item>
+        <item name="android:shadowDx">2</item>
+        <item name="android:shadowDy">2</item>
+        <item name="android:shadowColor">@color/gray_6</item>
+        <item name="android:layout_margin">@dimen/_8sdp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="fontFamily">@font/almarai_regular</item>
+    </style>
+
+    <style name="img_icon">
+        <item name="android:layout_width">@dimen/v_40</item>
+        <item name="android:layout_height">@dimen/v_40</item>
+        <item name="android:padding">@dimen/v_8</item>
+    </style>
+
+    <style name="img_icon_home">
+        <item name="android:layout_width">@dimen/_150sdp</item>
+        <item name="android:layout_height">@dimen/_150sdp</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+
+    <style name="TabLayoutStyle" parent="Base.Widget.Design.TabLayout">
+        <item name="android:textSize">@dimen/_9sdp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="fontFamily">@font/almarai_regular</item>
+    </style>
+
+    <style name="et_parent">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/v_15</item>
+        <item name="android:layout_marginTop">@dimen/v_15</item>
+        <item name="android:background">@drawable/et_bg</item>
+        <item name="android:focusable">true</item>
+        <item name="fontFamily">@font/almarai_regular</item>
+    </style>
+
+    <style name="bg_blue">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/v_5</item>
+        <item name="android:layout_marginTop">@dimen/v_15</item>
+        <item name="android:background">@drawable/btn_blue</item>
+    </style>
+
+    <style name="btn_primary">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/v_8</item>
+        <item name="android:background">@drawable/btn_primary</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/v_18</item>
+        <item name="fontFamily">@font/almarai_regular</item>
+    </style>
+
+    <style name="btn_border">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/v_10</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:textSize">@dimen/v_20</item>
+        <item name="android:background">@drawable/border_gray</item>
+        <item name="fontFamily">@font/almarai_regular</item>
+    </style>
+
+    <style name="btn_black">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/v_8</item>
+        <item name="android:layout_marginTop">@dimen/v_20</item>
+        <item name="android:background">@drawable/btn_black</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/v_18</item>
+        <item name="fontFamily">@font/almarai_regular</item>
+    </style>
+
+    <style name="line_hor">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@color/gray_e5</item>
+    </style>
+
+    <style name="btn_blue">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/v_8</item>
+        <item name="android:layout_marginTop">@dimen/v_20</item>
+        <item name="android:background">@drawable/btn_green</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/v_18</item>
+        <item name="fontFamily">@font/almarai_regular</item>
+    </style>
+    <style name="btn_golden">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/v_8</item>
+        <item name="android:layout_marginTop">@dimen/v_20</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@drawable/btn_golden</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/v_18</item>
+        <item name="fontFamily">@font/almarai_regular</item>
+    </style>
+
+    <style name="btn_white">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/v_8</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/v_18</item>
+        <item name="fontFamily">@font/almarai_regular</item>
+    </style>
+
+    <style name="img_back">
+        <item name="android:layout_width">@dimen/_30sdp</item>
+        <item name="android:layout_height">@dimen/_30sdp</item>
+        <item name="android:src">@drawable/ic_arrow_left</item>
+        <item name="android:layout_margin">8dp</item>
+    </style>
+
+    <dimen name="v_20">20dp</dimen>
+    <dimen name="v_12">12dp</dimen>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay"
+        parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="RatingBar" parent="Theme.AppCompat">
+        <item name="colorControlNormal">@color/gray_6</item>
+        <item name="colorControlActivated">@color/colorPrimary</item>
+    </style>
+
+
+</resources>

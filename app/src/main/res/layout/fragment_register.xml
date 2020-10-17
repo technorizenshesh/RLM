@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Fragments.FragmentUserType">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:focusable="true">
+
+        <ImageView
+            android:id="@+id/img_back"
+            style="@style/img_back" />
+
+        <TextView
+            android:id="@+id/tv_header"
+            style="@style/tv_header"
+            android:layout_below="@+id/img_back"
+            android:text="@string/create_profile" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_header"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="@dimen/v_10">
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/v_20" />
+
+                <EditText
+                    android:id="@+id/et_fname"
+                    style="@style/et_parent"
+                    android:drawablePadding="@dimen/v_10"
+                    android:hint="@string/first_name"
+                    android:imeOptions="actionNext"
+                    android:inputType="text" />
+                <EditText
+                    android:id="@+id/et_lname"
+                    style="@style/et_parent"
+                    android:drawablePadding="@dimen/v_10"
+                    android:hint="@string/last_name"
+                    android:imeOptions="actionNext"
+                    android:inputType="text" />
+
+                <EditText
+                    android:id="@+id/et_email"
+                    style="@style/et_parent"
+                    android:drawablePadding="@dimen/v_10"
+                    android:hint="@string/email"
+                    android:imeOptions="actionNext"
+                    android:inputType="textEmailAddress" />
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <com.rilixtech.widget.countrycodepicker.CountryCodePicker
+                        style="@style/et_parent"
+                        android:id="@+id/cpp"
+                        android:layout_centerVertical="true"
+                        android:layout_marginEnd="@dimen/_5sdp"
+                        android:layout_width="wrap_content"/>
+                    <EditText
+                        android:id="@+id/et_mobile"
+                        style="@style/et_parent"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="@dimen/_2sdp"
+                        android:layout_toEndOf="@+id/cpp"
+                        android:hint="@string/mobile"
+                        android:imeOptions="actionNext"
+                        android:inputType="phone" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    style="@style/et_parent"
+                    android:visibility="gone">
+                    <Spinner
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:entries="@array/city"/>
+                </RelativeLayout>
+
+
+
+                <EditText
+                    android:id="@+id/et_password"
+                    style="@style/et_parent"
+                    android:drawablePadding="@dimen/v_10"
+                    android:hint="@string/password"
+                    android:imeOptions="actionDone"
+                    android:inputType="textPassword" />
+
+                <TextView
+                    style="@style/tv_title"
+                    android:text="@string/select_if"
+                    android:layout_margin="@dimen/_10sdp"
+                    android:textColor="@color/black"
+                    android:gravity="center"/>
+
+                <Button
+                    android:id="@+id/btn_submit"
+                    style="@style/btn_blue"
+                    android:layout_marginTop="@dimen/v_20"
+                    android:text="@string/register"
+                    android:textAllCaps="false" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/v_50" />
+            </LinearLayout>
+        </ScrollView>
+        <com.rlm.GifImageView
+            android:id="@+id/loading"
+            android:layout_margin="@dimen/_30sdp"
+            android:visibility="gone"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </RelativeLayout>
+</layout>

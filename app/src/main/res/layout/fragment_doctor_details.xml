@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragments.FragmentUserType">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:focusable="true">
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="@dimen/_5sdp"
+            app:cardElevation="@dimen/_5sdp"
+            android:layout_margin="@dimen/_10sdp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="@dimen/_80sdp"
+                        android:layout_height="@dimen/_80sdp"
+                        android:id="@+id/image"
+                        android:src="@drawable/defult_user"
+                        android:layout_margin="@dimen/_10sdp"
+                        android:layout_gravity="center_horizontal"/>
+                    <TextView style="@style/tv_title"
+                        android:layout_toStartOf="@+id/tv_rate"
+                        android:text="Doctor"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:textSize="@dimen/_16sdp"
+                        android:id="@+id/tv_title"
+                        android:textColor="@color/colorPrimary"
+                        android:layout_marginStart="@dimen/_10sdp"
+                        android:layout_marginTop="@dimen/_10sdp"/>
+                    <TextView
+                        style="@style/tv_menu"
+                        android:text="@string/general_physician"
+                        android:layout_gravity="center" />
+                    <RatingBar
+                        android:id="@+id/rb_rating"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:rating="5"
+                        android:layout_gravity="center"
+                        style="@style/Widget.AppCompat.RatingBar.Small" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:visibility="gone"
+                        android:background="@color/gray_f6"
+                        android:padding="@dimen/_5sdp">
+                        <TextView style="@style/tv_title"
+                            android:layout_weight="1"
+                            android:text="Timing \n4:30 PM-8:30 PM"
+                            android:gravity="center"
+                            android:textColor="@color/colorPrimary"/>
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="@dimen/_40sdp"
+                            android:background="@color/gray_6"/>                        <TextView style="@style/tv_title"
+                            android:layout_weight="1"
+                            android:text="Fee \nRs.500/ Session"
+                            android:gravity="center"
+                            android:textColor="@color/colorPrimary"/>
+                    </LinearLayout>
+                    <TextView style="@style/tv_title"
+                        android:layout_margin="@dimen/_10sdp"
+                        android:text="@string/about_doctor"
+                        android:layout_gravity="center"/>
+                    <TextView style="@style/tv_description"
+                        android:id="@+id/tv_description"
+                        android:text="@string/dummy"/>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_1sdp"
+                        android:background="@color/colorPrimary"/>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:id="@+id/btn_book"
+                            style="@style/tv_title"
+                            android:layout_width="match_parent"
+                            android:layout_weight="1"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:text="@string/book_appointment"/>
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_gravity="center"
+                            android:layout_height="@dimen/_30sdp"
+                            android:background="@color/colorPrimary"/>
+                        <TextView
+                            android:id="@+id/tv_rate"
+                            android:layout_width="match_parent"
+                            style="@style/tv_title"
+                            android:layout_weight="1"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:text="@string/rate_doctor"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        <com.rlm.GifImageView
+            android:id="@+id/loading"
+            android:layout_margin="@dimen/_30sdp"
+            android:visibility="gone"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+</layout>

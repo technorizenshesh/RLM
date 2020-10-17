@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragments.FragmentUserType">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:focusable="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="@dimen/_5sdp"
+                app:cardElevation="@dimen/_5sdp"
+                android:layout_margin="@dimen/_5sdp"
+                app:cardBackgroundColor="@color/card_1">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/_5sdp"
+                    android:orientation="vertical">
+                    <TextView style="@style/tv_header_medium"
+                        android:textColor="@color/white"
+                        android:id="@+id/tv_title_staff"
+                        android:text="@string/total_number_of_our_staff"/>
+                    <ImageView
+                        android:layout_width="@dimen/_40sdp"
+                        android:layout_height="@dimen/_40sdp"
+                        android:src="@drawable/sts_doctor"
+                        android:layout_below="@+id/tv_title_staff"
+                        android:layout_margin="@dimen/_8sdp"/>
+                    <TextView
+                        style="@style/tv_header"
+                        android:text="145"
+                        android:layout_width="wrap_content"
+                        android:textColor="@color/white"
+                        android:layout_below="@+id/tv_title_staff"
+                        android:layout_alignParentEnd="true"/>
+
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="@dimen/_5sdp"
+                app:cardElevation="@dimen/_5sdp"
+                android:layout_margin="@dimen/_5sdp"
+                app:cardBackgroundColor="@color/card_2">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/_5sdp"
+                    android:orientation="vertical">
+                    <TextView style="@style/tv_header_medium"
+                        android:textColor="@color/white"
+                        android:id="@+id/tv_title_static"
+                        android:text="@string/our_customer_s_satisfaction_rate"/>
+                    <ImageView
+                        android:layout_width="@dimen/_40sdp"
+                        android:layout_height="@dimen/_40sdp"
+                        android:src="@drawable/stats"
+                        android:layout_below="@+id/tv_title_static"
+                        android:layout_margin="@dimen/_8sdp"/>
+                    <TextView
+                        style="@style/tv_header"
+                        android:text="99%"
+                        android:layout_width="wrap_content"
+                        android:textColor="@color/white"
+                        android:layout_below="@+id/tv_title_static"
+                        android:layout_alignParentEnd="true"/>
+
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="@dimen/_5sdp"
+                app:cardElevation="@dimen/_5sdp"
+                android:layout_margin="@dimen/_5sdp"
+                app:cardBackgroundColor="@color/card_3">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/_5sdp"
+                    android:orientation="vertical">
+                    <TextView style="@style/tv_header_medium"
+                        android:textColor="@color/white"
+                        android:id="@+id/tv_title_visit"
+                        android:text="@string/total_visits_to_our_centers"/>
+                    <ImageView
+                        android:layout_width="@dimen/_40sdp"
+                        android:layout_height="@dimen/_40sdp"
+                        android:src="@drawable/visitor"
+                        android:layout_below="@+id/tv_title_visit"
+                        android:layout_margin="@dimen/_8sdp"/>
+                    <TextView
+                        style="@style/tv_header"
+                        android:text="54879"
+                        android:layout_width="wrap_content"
+                        android:textColor="@color/white"
+                        android:layout_below="@+id/tv_title_visit"
+                        android:layout_alignParentEnd="true"/>
+
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+    </RelativeLayout>
+</layout>

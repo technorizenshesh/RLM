@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_first"
+    app:startDestination="@id/nav_login">
+<fragment android:id="@+id/nav_login"
+    android:name="com.rlm.Fragments.FragmentLogin"
+    tools:layout="@layout/fragment_login">
+    <action android:id="@+id/action_register"
+        app:destination="@+id/nav_register"/>
+    <action android:id="@+id/action_forgot_password"
+        app:destination="@+id/nav_forget_password"/>
+</fragment>
+    <fragment android:id="@+id/nav_register"
+        android:name="com.rlm.Fragments.FragmentRegister"
+        tools:layout="@layout/fragment_register">
+        <action android:id="@+id/action_login"
+            app:destination="@+id/nav_login"/>
+        <action android:id="@+id/action_verify"
+            app:destination="@+id/nav_verify_mobile"/>
+    </fragment>
+    <fragment android:id="@+id/nav_verify_mobile"
+        android:name="com.rlm.Fragments.FragmentVerifyMobile"
+        tools:layout="@layout/fragment_verify_mobile">
+    </fragment>
+    <fragment android:id="@+id/nav_forget_password"
+        android:name="com.rlm.Fragments.FragmentForgotPassword"
+        tools:layout="@layout/fragment_forgot_password">
+    </fragment>
+
+</navigation>

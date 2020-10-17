@@ -1,0 +1,143 @@
+<resources>
+    <string name="app_name">RLM</string>
+    <string name="map_key">AIzaSyBRm6WUMN-xG1srtuFGe_fquKrMFNrgdZc</string>
+    <string name = "create_profile"> إنشاء ملف تعريف </string>
+    <string name = "required"> مطلوبة </string>
+    <string name = "name"> الاسم </string>
+    <string name = "email"> البريد الإلكتروني </string>
+    <string name = "mobile"> الجوال </string>
+    <string name = "password"> كلمة المرور </string>
+    <string name = "select_if"> من خلال المتابعة ، أؤكد أنني قرأت ووافقت على الشروط والأحكام وسياسة الخصوصية. </string>
+    <string name = "email_not_valid"> البريد الإلكتروني غير صالح </string>
+    <string name = "mobile_verification"> التحقق من الهاتف المحمول </string>
+    <string name = "get_start"> ابدأ </string>
+    <string name = "about_us"> من نحن </string>
+    <string name = "our_service"> خدماتنا </string>
+    <string name = "our_doctor"> أطباؤنا </string>
+    <string name = "our_offer"> عروضنا </string>
+    <string name = "appointment"> المواعيد </string>
+    <string name = "contact_us"> اتصل بنا </string>
+    <string name = "who_we_are"> من نحن؟ </string>
+    <string name = "our_vision"> رؤيتنا </string>
+    <string name = "our_mission"> مهمتنا </string>
+    <array name="city">
+        <item>Select City</item>
+        <item>City A</item>
+        <item>City B</item>
+        <item>City C</item>
+        <item>City D</item>
+        <item>City E</item>
+    </array>
+    <string name="dummy">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </string>
+    <string name = "direction"> الاتجاه </string>
+    <string name = "call_us"> اتصل بنا </string>
+    <string name = "choose_day"> اختر اليوم </string>
+    <string name = "next"> التالي </string>
+    <string name = "login"> تسجيل الدخول </string>
+    <string name = "forgot_password"> هل نسيت كلمة المرور؟ </string>
+    <string name = "register"> التسجيل </string>
+    <array name="branch">
+        <item>Select Branch</item>
+        <item>Branch A</item>
+        <item>Branch B</item>
+        <item>Branch C</item>
+        <item>Branch D</item>
+        <item>Branch E</item>
+    </array>
+    <array name="section">
+        <item>Select section</item>
+        <item>section A</item>
+        <item>section B</item>
+        <item>section C</item>
+        <item>section D</item>
+        <item>section E</item>
+    </array>
+    <array name="doctor">
+        <item>Select doctor</item>
+        <item>doctor A</item>
+        <item>doctor B</item>
+        <item>doctor C</item>
+        <item>doctor D</item>
+        <item>doctor E</item>
+    </array>
+    <string name = "who_we_are_description"> يعد مركز ليان روائع من أرقى المراكز المتخصصة حيث الرقي في التعامل ونوع الخدمة المقدمة يشمل طاقمنا أفضل الموظفين الطبيين المختارين من التجربة المتميزة ، لدينا وحدة خاصة للتعقيم مع أحدث التقنيات الدولية مثل جهاز الكشف عن التعقيم البيولوجي لضمان صحة المرضى. </string>
+    <string name = "vision_description"> الرؤية: أن تكون مركزًا طبيًا رائدًا في مجال طب الأسنان على مستوى الشرق الأوسط. - الرسالة: - توفير التقنيات الحديثة والكوادر المؤهلة لتقديم أفضل الخدمات وفق أعلى المعايير العالمية. الأهداف: - تقديم جميع تخصصات طب الأسنان لخدمة المراجعين. توفير الكوادر الطبية والإدارية بمستوى عالٍ من الكفاءة. . </string>
+    <string name = "mission_description"> روائع عيادات ليان ، لكنها من أرقى المراكز المتخصصة في الطب وتقويم الأسنان وطب الأسنان التجميلي حيث الرقي في التعامل ونوع الخدمة المقدمة ، يشمل طاقمنا أحد أفضل المختارين كوادر طبية ذات خبرة متميزة وأعلى الشهادات في جميع تخصصات الأسنان ، مرافق طبية حديثة نهتم بجلب أحدث التقنيات في طبيب الأسنان. </string>
+    <string name = "main"> الرئيسي </string>
+    <string name = "what_about_us"> ماذا عنا </string>
+    <string name = "appointment_booking"> حجز المواعيد </string>
+    <string name = "statistics"> الإحصائيات </string>
+    <string name = "first_name"> الاسم الأول </string>
+    <string name = "last_name"> اسم العائلة </string>
+    <string name = "submit"> إرسال </string>
+<array name="change_language">
+    <item>تغيير اللغة</item>
+    <item>English</item>
+    <item>عربى</item>
+</array>
+    <string name="english">English</string>
+    <string name="arabic">عربى</string>
+    <string name = "total_number_of_our_staff"> العدد الإجمالي لموظفينا </string>
+    <string name = "our_customer_s_satisfaction_rate"> معدل رضا عملائنا </string>
+    <string name = "total_visits_to_our_centers"> إجمالي الزيارات إلى مراكزنا </string>
+    <string name = "rate_service"> خدمة التقييم </string>
+    <string name = "rate_doctor"> تقييم الطبيب </string>
+    <string name = "adaer_branch">جيزان</string>
+    <string name = "address_1">الداير بني مالك الشارع العام
+ص. ب ٨٥٦٨</string>
+    <string name = "abu_areesh_branch">جيزان</string>
+    <string name = "address_2">ابو عريش شارع الامير سلطان
+ص. ب ٢٢٣٧</string>
+    <string name = "sun"> الأحد </string>
+    <string name = "mon"> الإثنين </string>
+    <string name = "tus">الثلاثاء </string>
+    <string name = "wed"> الأربعاء </string>
+    <string name = "thus"> الخميس </string>
+    <string name = "fri"> يوم الجمعة </string>
+    <string name = "sat"> يوم السبت </string>
+    <string name = "select_date"> حدد التاريخ </string>
+    <string name = "select_start_time"> حدد وقت البدء </string>
+    <string name = "select_end_time"> حدد وقت الانتهاء </string>
+    <string name = "below_you_will_find_available_time"> أدناه ستجد الوقت المتاح </string>
+    <string name = "about_doctor"> حول الطبيب </string>
+    <string name = "book_appointment">حجز موعد </string>
+    <string name = "num_not"> الرقم غير متاح </string>
+    <string name="general_physician">طبيب عام</string>
+    <string name="call_now">اتصل الان</string>
+    <string name = "about_service"> حول الخدمة </string>
+    <string name = "offer_title_1"> خصومات أخرى </string>
+    <string name = "offer_dis_1"> 20٪ - 15٪ </string>
+    <string name = "offer_sub_title_1"> استمتع بالخصومات التي تشمل معظم الخدمات المطلوبة </string>
+    <string name = "offer_descrip_1"> \ "خصم 20٪ على جميع أنواع الحشوات \ n +
+                 "خصم 15٪ على جميع تركيبات الأسنان الثابتة والمتنقلة \ n" +
+                 "خصم 15٪ على خدمات التثبيت من التثبيت \ n" +
+                 "إزالة وتركيب الماس وإصلاح الجسور \ n" +
+                 "خصم 20٪ على تنظيف الأسنان وتلميعها" </string>
+    <string name = "offer_title_2"> حزمة علاج الأعصاب والتثبيت </string>
+    <string name = "offer_dis_2"> 1000 ريال </string>
+    <string name = "offer_sub_title_2"> فقط 1000 ريال للأعصاب والخلع </string>
+    <string name = "offer_descrip_2"> علاج كامل للعصب + تركيب الأقواس + ضمادات الأسنان بتاج خزفي بمعدن فقط 1000 ريال ريال </string>
+    <string name = "offer_title_3"> حزمة ابتسامة رائعة </string>
+    <string name = "offer_dis_3"> 700 ريال </string>
+    <string name = "offer_sub_title_3"> فقط 700 ريال سعودي للحصول على ابتسامة رائعة وجذابة </string>
+    <string name = "offer_decrip_3"> تنظيف وتلميع الأسنان \ n \ "+ \" تبييض الأسنان بالليزر </string>
+    <string name = "offer_title_4"> حزمة أسنان طفلي </string>
+    <string name = "offer_dis_4"> 200 ريال </string>
+    <string name = "offer_sub_title_4"> فقط 200 ريال لرعاية أسنان طفلك </string>
+    <string name = "offer_descrip_4"> الفحص والاستشارة الشفوية الشاملة \ n \ "+ \" قفل الشقوق في الأسنان لحمايتها من التسوس \ n \ "+ \" تطبيق الفلورايد لتوفير الحماية لأسنان طفلك </string>
+    <string name = "view">المزيد</string>
+    <string name = "doctor_not_available"> دكتور غير متاح </string>
+    <string name = "select_branch"> حدد الفرع </string>
+    <string name = "select_section"> حدد القسم </string>
+    <string name = "select_doctor"> حدد الطبيب </string>
+    <string name="appointment_date">تاريخ الموعد:</string>
+    <string name="appointment_msg">تمت إضافة الموعد بنجاح</string>
+    <string name="go_to_home">الصفحة الرئيسية</string>
+    <string name="back">عودة</string>
+    <string name="more">المزيد </string>
+    <string name="logout">تسجيل خروج</string>
+    <string name="comments">تعليقات</string>
+    <string name="apointment_date">تاريخ الموعد:</string>
+    <string name="mob_1">+966173340336</string>
+    <string name="mob_2">+966173240552</string>
+</resources>

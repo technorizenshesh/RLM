@@ -1,0 +1,141 @@
+<resources>
+    <string name="app_name">RLM</string>
+    <string name="map_key">AIzaSyBRm6WUMN-xG1srtuFGe_fquKrMFNrgdZc</string>
+    <string name="create_profile">Create Profile</string>
+    <string name="required">Required</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="mobile">Mobile</string>
+    <string name="password">Password</string>
+    <string name="select_if"><![CDATA[By Continuing, I confirm that i have read & agree to the Term & conditions and Privicy Policy.]]></string>
+    <string name="email_not_valid">Email not valid</string>
+    <string name="mobile_verification">Mobile Verification</string>
+    <string name="get_start">Get Start</string>
+    <string name="about_us">About Us</string>
+    <string name="our_service">Our Service</string>
+    <string name="our_doctor">Our Doctors</string>
+    <string name="our_offer">Our Offers</string>
+    <string name="appointment">Appointments</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="who_we_are">Who We Are?</string>
+    <string name="our_vision">Our Vision</string>
+    <string name="our_mission">Our Mission</string>
+    <array name="city">
+        <item>Select City</item>
+        <item>City A</item>
+        <item>City B</item>
+        <item>City C</item>
+        <item>City D</item>
+        <item>City E</item>
+    </array>
+    <string name="dummy">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </string>
+    <string name="direction">Direction</string>
+    <string name="call_us">Call us</string>
+    <string name="choose_day">Choose Day</string>
+    <string name="next">Next</string>
+    <string name="login">Login</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="register">Register</string>
+    <array name="branch">
+        <item>Select Branch</item>
+        <item>Branch A</item>
+        <item>Branch B</item>
+        <item>Branch C</item>
+        <item>Branch D</item>
+        <item>Branch E</item>
+    </array>
+    <array name="section">
+        <item>Select section</item>
+        <item>section A</item>
+        <item>section B</item>
+        <item>section C</item>
+        <item>section D</item>
+        <item>section E</item>
+    </array>
+    <array name="doctor">
+        <item>Select doctor</item>
+        <item>doctor A</item>
+        <item>doctor B</item>
+        <item>doctor C</item>
+        <item>doctor D</item>
+        <item>doctor E</item>
+    </array>
+    <string name="who_we_are_description">Layan Masterpieces Center is one of the finest specialized centers where sophistication in dealing and the type of service provided Our staff includes the best medical personnel selected from the distinguished experience, we have a special unit for sterilization with the latest international technologies such as a biological sterilization detection device to ensure patient health.</string>
+    <string name="vision_description">Vision: To be a leading medical center in the field of dentistry at the level of the Middle East. - The message: - Providing modern technologies and qualified cadres to provide the best services according to the highest international standards. Objectives: - Providing all specializations in dentistry to serve the auditors. Providing medical and administrative staff at a high level of efficiency. .</string>
+    <string name="mission_description">The masterpieces of Liyan clinics, but they are one of the finest centers specialized in medicine, orthodontics and cosmetic dentistry where the sophistication in dealing and the type of service provided, our staff includes one of the best selected medical cadres with distinguished experience and the highest certificates in all dental specialties, modern medical facilities we care to bring the latest technology in dentist.</string>
+    <string name="main">Main</string>
+    <string name="what_about_us">What about us</string>
+    <string name="appointment_booking">Appointment booking</string>
+    <string name="statistics">Statistics</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="submit">Submit</string>
+<array name="change_language">
+    <item>Change Language</item>
+    <item>English</item>
+    <item>Arabic</item>
+</array>
+    <string name="english">English</string>
+    <string name="arabic">Arabic</string>
+    <string name="total_number_of_our_staff">Total number of our staff</string>
+    <string name="our_customer_s_satisfaction_rate">Our customer\'s satisfaction rate</string>
+    <string name="total_visits_to_our_centers">Total visits to our centers</string>
+    <string name="rate_service">Rate Service</string>
+    <string name="rate_doctor">Rate Doctor</string>
+    <string name="adaer_branch">Jizan</string>
+    <string name="address_1">Aldayer Bani Malik, Main Road, P. O. Box 8568</string>
+    <string name="abu_areesh_branch">Jizan</string>
+    <string name="address_2">Abu Arish Prince Sultan Road,P. O. Box: 2237</string>
+    <string name="sun">Sun</string>
+    <string name="mon">Mon</string>
+    <string name="tus">Tus</string>
+    <string name="wed">Wed</string>
+    <string name="thus">Thus</string>
+    <string name="fri">Fri</string>
+    <string name="sat">Sat</string>
+    <string name="select_date">Select Date</string>
+    <string name="select_start_time">Select Start Time</string>
+    <string name="select_end_time">Select End Time</string>
+    <string name="below_you_will_find_available_time">Below you will find available time</string>
+    <string name="about_doctor">About Doctor</string>
+    <string name="book_appointment">Book Appointment</string>
+    <string name="num_not">Number not available</string>
+    <string name="general_physician">General physician</string>
+    <string name="call_now">Call Now</string>
+    <string name="about_service">About Service</string>
+    <string name="offer_title_1">Other discounts</string>
+    <string name="offer_dis_1">20% - 15%</string>
+    <string name="offer_sub_title_1">Enjoy discounts that include the most requested services</string>
+    <string name="offer_descrip_1">\"20% discount on all types of fillings \n  +
+                 "15% discount on all fixed and mobile dental fixtures \n " +
+                 "15% discount on installation services from install \n " +
+                 "Removing and installing diamonds and repairing bridges \n " +
+                 "20% discount on dental cleaning and polishing"</string>
+    <string name="offer_title_2">Nerve treatment and fixture package</string>
+    <string name="offer_dis_2">SR 1000</string>
+    <string name="offer_sub_title_2">Only 1000 riyals for nerve and dressing</string>
+    <string name="offer_descrip_2">Full nerve treatment + braces installation + tooth dressing with a ceramic crown with metal for only 1000 riyals \n \" +                 \"Full nerve treatment + brace installation + dressing-tooth with Zircon crown for only 1400 riyals</string>
+    <string name="offer_title_3">Dazzling smile package</string>
+    <string name="offer_dis_3">SR 700</string>
+    <string name="offer_sub_title_3">Just SAR 700 to get a dazzling and attractive smile</string>
+    <string name="offer_decrip_3">Teeth cleaning and polishing \n \" +                 \"Laser teeth whitening</string>
+    <string name="offer_title_4">My child\'s dental package</string>
+    <string name="offer_dis_4">SR 200</string>
+    <string name="offer_sub_title_4">Just 200 riyals to take care of your child\'s teeth</string>
+    <string name="offer_descrip_4">Comprehensive oral examination and counseling \n \" +                 \"Lock the cracks in the teeth to protect them from decay \n \" +                 \"Fluoride application to give protection to your child\'s teeth</string>
+    <string name="view">View</string>
+    <string name="doctor_not_available">Doctor Not Available</string>
+    <string name="select_branch">Select Branch</string>
+    <string name="select_section">Select Section</string>
+    <string name="select_doctor">Select Doctor</string>
+    <string name="appointment_date">\"Appointment Date: \"</string>
+    <string name="appointment_msg">Appointment added successfully</string>
+    <string name="go_to_home">Go To Home</string>
+    <string name="back">Back</string>
+    <string name="more">More</string>
+    <string name="logout">Logout</string>
+    <string name="comments">Comments</string>
+    <string name="apointment_date">Appointment Date:</string>
+    <string name="mob_1">+966173340336</string>
+    <string name="mob_2">+966173240552</string>
+</resources>
